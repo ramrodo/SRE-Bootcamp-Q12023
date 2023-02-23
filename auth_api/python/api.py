@@ -2,6 +2,7 @@ from flask import Flask
 from flask import jsonify
 from flask import request
 from methods import Token, Restricted
+from db import Database
 
 app = Flask(__name__)
 login = Token()
